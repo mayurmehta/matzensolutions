@@ -10,14 +10,14 @@
         <title><?=$page_title?></title>
 
         <!-- Bootstrap -->
-        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="<?php echo base_url()?>public/css/bootstrap.css" rel="stylesheet">
 
         <!-- Links -->
-        <link href="css/camera.css" rel="stylesheet">
+        <link href="<?php echo base_url()?>public/css/camera.css" rel="stylesheet">
 
         <!--JS-->
-        <script src="js/jquery.js"></script>
-        <script src="js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="<?php echo base_url()?>public/js/jquery.js"></script>
+        <script src="<?php echo base_url()?>public/js/jquery-migrate-1.2.1.min.js"></script>
 
         <!--[if lt IE 9]>
         <div style=' clear: both; text-align:center; position: relative;'>
@@ -28,7 +28,7 @@
         </div>
         <script src="js/html5shiv.js"></script>
         <![endif]-->
-        <script src='js/device.min.js'></script>
+        <script src='<?php echo base_url()?>public/js/device.min.js'></script>
         
     </head>
 
@@ -570,8 +570,8 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/tm-scripts.js"></script>
+    <script src="<?php echo base_url()?>public/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url()?>public/js/tm-scripts.js"></script>
     <!-- </script> -->
 
     <script type="text/javascript">
