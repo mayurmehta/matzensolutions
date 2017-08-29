@@ -1,7 +1,7 @@
 <?php
 
 
-class Index extends CI_Controller
+class Site extends CI_Controller
 {
 	private $data = array();
 
@@ -15,6 +15,11 @@ class Index extends CI_Controller
 	public function index(){
 		$this->data['page_title'] ="Home | Matzen Solution";
 		$this->template->load("home_template","home/index", $this->data);
+	}
+
+	public function about(){
+		$this->data['page_title'] ="About | Matzen Solution";
+		$this->template->load("home_template","home/about", $this->data);
 	}
 
 
