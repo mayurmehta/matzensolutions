@@ -1,33 +1,475 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="format-detection" content="telephone=no"/>
+        <!-- <script src="<?=base_url()?>public/js/main.js"></script> -->
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <title><?=$page_title?></title>
 
-    <title><?=$page_title?></title>
+        <!-- Bootstrap -->
+        <link href="<?=base_url()?>public/css/bootstrap.css" rel="stylesheet">
 
-    <link href="<?=base_url()?>public/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?=base_url()?>public/css/font-awesome.css" rel="stylesheet">
-    <link href="<?=base_url()?>public/css/animate.css" rel="stylesheet">
-    <link href="<?=base_url()?>public/css/style.css" rel="stylesheet">
-</head>
-<body class="gray-bg">
-    <div class="middle-box text-center loginscreen  animated fadeInDown">
-        <div>
-            <div>
-                <!-- <h1 class="logo-name">MMT</h1> -->
-                <h1 class="logo-name"><img src="<?=base_url()?>public/img/logo.jpg" /></h1>
-            </div>
-            <h3>Welcome to Match MY Talent</h3>
-            <!-- <p>Perfectly designed and precisely prepared admin theme with over 50 pages with extra new web app views.</p> -->
-            <?php echo $body; ?>
-            <p class="m-t">
-                <small>&copy; <?=date('Y');?> Match My Talent</small>
-            </p>
+        <!-- Links -->
+        <link href="<?=base_url()?>public/css/camera.css" rel="stylesheet">
+
+        <!--JS-->
+        <script src="<?=base_url()?>public/js/jquery.js"></script>
+        <script src="<?=base_url()?>public/js/jquery-migrate-1.2.1.min.js"></script>
+
+        <!--[if lt IE 9]>
+        <div style=' clear: both; text-align:center; position: relative;'>
+            <a href="https://windows.microsoft.com/en-US/internet-explorer/..">
+                <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+                     alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+            </a>
         </div>
+        <script src="js/html5shiv.js"></script>
+        <![endif]-->
+        <script src='<?=base_url()?>public/js/device.min.js'></script>
+        
+    </head>
+
+    <body>
+    <div class="page">
+        <!--========================================================
+                                  HEADER
+        =========================================================-->
+        <header>
+            <div id="stuck_container" class="stuck_container">
+                <div class="container">
+                    <div class="navbar-header">
+                        <h1 class="navbar-brand">
+                            <a href="index.html">
+                                Drafting
+                            </a>
+                        </h1>
+                    </div>
+
+                    <nav class="navbar navbar-default navbar-static-top ">
+
+                        <ul class="navbar-nav sf-menu navbar-right" data-type="navbar">
+                            <li class="active">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="index-1.html">About</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="index-2.html">Services</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="index.html#">Lorem ipsum dolor </a>
+                                    </li>
+                                    <li>
+                                        <a href="index.html#">Ait amet conse </a>
+                                    </li>
+                                    <li>
+                                        <a href="index.html#">Ctetur adipisicing elit</a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="index.html#">Lorem</a>
+                                            </li>
+                                            <li>
+                                                <a href="index.html#">Dolor</a>
+                                            </li>
+                                            <li>
+                                                <a href="index.html#">Sit amet</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="index.html#">Sed do eiusmod </a>
+                                    </li>
+                                    <li>
+                                        <a href="index.html#">Tempor incididunt </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="index-3.html">Gallery</a>
+                            </li>
+
+                            <li>
+                                <a href="index-4.html">Contacts</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!--========================================================
+                                  CONTENT
+        =========================================================-->
+
+        <?php echo $body; ?>
+
+        <!--========================================================
+                                FOOTER
+      =========================================================-->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <h4>About</h4>
+                        <ul>
+                            <li><a href="index.html#">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="index.html#">Conse ctetur adipisicing</a></li>
+                            <li><a href="index.html#">Elit sed do eiusmod tempor</a></li>
+                            <li><a href="index.html#">Incididunt ut labore</a></li>
+                            <li><a href="index.html#">Et dolore magna aliqua</a></li>
+                            <li><a href="index.html#">Ut enim ad minim veniam</a></li>
+                            <li><a href="index.html#">Quis nostrud exercitation</a></li>
+                            <li><a href="index.html#">Ullamco laboris nisi</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="index.html#">Conse ctetur adipisicing</a></li>
+                            <li><a href="index.html#">Elit sed do eiusmod tempor</a></li>
+                            <li><a href="index.html#">Incididunt ut labore</a></li>
+                            <li><a href="index.html#">Et dolore magna aliqua</a></li>
+                            <li><a href="index.html#">Ut enim ad minim veniam</a></li>
+                            <li><a href="index.html#">Quis nostrud exercitation</a></li>
+                            <li><a href="index.html#">Ullamco laboris nisi</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-offset-3 col-md-3 col-sm-12 col-xs-12">
+                        <div class="fb-page" data-href="https://www.facebook.com/TemplateMonster" data-width="280px"
+                             data-height="300px" data-hide-cover="false" data-show-facepile="true"
+                             data-show-posts="false">
+                            <div class="fb-xfbml-parse-ignore">
+                                <blockquote cite="https://www.facebook.com/TemplateMonster"><a
+                                        href="https://www.facebook.com/TemplateMonster">TemplateMonster</a></blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    Drafting &#169; <span id="copyright-year"></span> |
+                    <a href="index-5.html">Privacy Policy</a>
+                    <!-- {%FOOTER_LINK} -->
+                </div>
+            </div>
+        </footer>
     </div>
-    <!-- Mainly scripts -->
-    <script src="<?=base_url()?>public/js/jquery-2.1.1.js"></script>
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript">
+        function isIE() {
+            var myNav = navigator.userAgent.toLowerCase();
+            return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
+        }
+    </script>
     <script src="<?=base_url()?>public/js/bootstrap.min.js"></script>
-</body>
+    <script src="<?=base_url()?>public/js/jquery.cookie.js"></script>
+    <script src="<?=base_url()?>public/js/jquery.easing.1.3.js"></script>
+    <script src="<?=base_url()?>public/js/jquery.ui.totop.js"></script>
+    <script src="<?=base_url()?>public/js/superfish.js"></script>
+    <script src="<?=base_url()?>public/js/wow.js"></script>
+    <script src="<?=base_url()?>public/js/camera.js"></script>
+    <script src="<?=base_url()?>public/js/jquery.touch-touch.js"></script>
+
+    <script type="text/javascript">
+        (function($) {
+            if ($('html').hasClass('desktop')) {
+                $.getScript('<?=base_url()?>public/js/jquery.ui.totop.js');
+                $(document).ready(function() {
+                    $().UItoTop({
+                        easingType: 'easeOutQuart',
+                        containerClass: 'toTop fa fa-angle-up'
+                    });
+                });
+            }
+        })(jQuery);;
+        (function($) {
+            if ($('[data-equal-group]').length > 0) {
+                $.getScript('<?=base_url()?>public/js/jquery.equalheights.js');
+            }
+        })(jQuery);;
+        (function($) {
+            var currentYear = (new Date).getFullYear();
+            $(document).ready(function() {
+                $("#copyright-year").text((new Date).getFullYear());
+            });
+        })(jQuery);;
+        (function($) {
+            if ($('.resp-tabs').length > 0) {
+                $.getScript('<?=base_url()?>public/js/jquery.responsive.tabs.js');
+                $(document).ready(function() {
+                    $('.resp-tabs').easyResponsiveTabs();
+                });
+            }
+        })(jQuery);;
+        (function($) {
+            $.getScript('<?=base_url()?>public/js/jquery.rd-navbar.js');
+        })(jQuery);;
+        (function($) {
+            if ($('.accordion').length > 0) {
+                $.getScript('<?=base_url()?>public/js/jquery.ui.accordion.min.js');
+                $(document).ready(function() {
+                    $('.accordion').accordion({
+                        active: false,
+                        header: '.accordion_header',
+                        heightStyle: 'content',
+                        collapsible: true
+                    });
+                });
+            }
+        })(jQuery);;
+        (function($) {
+            if (document.getElementById("google-map")) {
+                $.getScript('//maps.google.com/maps/api/js?sensor=false');
+                $.getScript('<?=base_url()?>public/js/jquery.rd-google-map.js');
+                $(document).ready(function() {
+                    if ($('#google-map').length > 0) {
+                        $('#google-map').googleMap({
+                            styles: []
+                        });
+                    }
+                });
+            }
+        })
+        (jQuery);;
+        (function($) {
+            if ($('.owl-carousel').length > 0) {
+                $.getScript('<?=base_url()?>public/js/owl.carousel.min.js');
+                $(document).ready(function() {
+                    $('.owl-carousel').owlCarousel({
+                        margin: 30,
+                        smartSpeed: 450,
+                        loop: true,
+                        dots: false,
+                        dotsEach: 1,
+                        nav: true,
+                        navClass: ['owl-prev fa fa-angle-left', 'owl-next fa fa-angle-right'],
+                        responsive: {
+                            0: {
+                                items: 1
+                            },
+                            768: {
+                                items: 1
+                            },
+                            980: {
+                                items: 1
+                            }
+                        }
+                    });
+                });
+            }
+        })(jQuery);;
+        (function($) {
+            if ((navigator.userAgent.toLowerCase().indexOf('msie') == -1) || (isIE() && isIE() > 9)) {
+                if ($('html').hasClass('desktop')) {
+                    $(document).ready(function() {
+                        new WOW().init();
+                    });
+                }
+            }
+        })(jQuery);
+        $(function() {
+            var viewportmeta = document.querySelector && document.querySelector('meta[name="viewport"]'),
+                ua = navigator.userAgent,
+                gestureStart = function() {
+                    viewportmeta.content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6, initial-scale=1.0";
+                },
+                scaleFix = function() {
+                    if (viewportmeta && /iPhone|iPad/.test(ua) && !/Opera Mini/.test(ua)) {
+                        viewportmeta.content = "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
+                        document.addEventListener("gesturestart", gestureStart, false);
+                    }
+                };
+            scaleFix();
+            if (window.orientation != undefined) {
+                var regM = /ipod|ipad|iphone/gi,
+                    result = ua.match(regM);
+                if (!result) {
+                    $('.sf-menus li').each(function() {
+                        if ($(">ul", this)[0]) {
+                            $(">a", this).toggle(function() {
+                                return false;
+                            }, function() {
+                                window.location.href = $(this).attr("href");
+                            });
+                        }
+                    })
+                }
+            }
+        });
+        var ua = navigator.userAgent.toLocaleLowerCase(),
+            regV = /ipod|ipad|iphone/gi,
+            result = ua.match(regV),
+            userScale = "";
+        if (!result) {
+            userScale = ",user-scalable=0"
+        }
+        document.write('<meta name="viewport" content="width=device-width,initial-scale=1.0' + userScale + '">');;
+        (function($) {
+            if ($('#camera').length > 0) {
+                if (!(isIE() && (isIE() > 9))) {
+                    $.getScript('<?=base_url()?>public/js/jquery.mobile.customized.min.js');
+                }
+                $(document).ready(function() {
+                    $('#camera').camera({
+                        autoAdvance: true,
+                        height: '31.21951%',
+                        minHeight: '350px',
+                        pagination: false,
+                        thumbnails: false,
+                        playPause: false,
+                        hover: false,
+                        loader: 'none',
+                        navigation: true,
+                        navigationHover: true,
+                        mobileNavHover: false,
+                        fx: 'simpleFade'
+                    })
+                });
+            }
+        })(jQuery);;
+        (function($) {
+            $.getScript('<?=base_url()?>public/js/mailform/jquery.form.min.js');
+            $.getScript('<?=base_url()?>public/js/mailform/jquery.rd-mailform.min.js');
+        })(jQuery);
+        $.getScript('<?=base_url()?>public/js/jquery.cookie.js');
+        $(document).ready(function() {
+            $('head').append('<link rel="stylesheet" href="public/assets/tm/css/tm_docs.css" type="text/css" media="screen"><link href="css/tm_panel.css" rel="stylesheet">');
+            $('body').prepend('<div id="panel"><div class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner" id="advanced"><span class="trigger"><strong></strong><em></em></span><div class="container"><div class="navbar-header"><button class="navbar-toggle tm_offs1" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div><nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation"><ul class="nav navbar-nav"><li class="home"><a href="index.html" class="glyphicon glyphicon-home"></a></li><li class="divider-vertical"></li><li><a href="assets/getting-started.html">Getting started</a></li><li><a href="assets/css.html">CSS</a></li><li><a href="assets/components.html">Components</a></li><li><a href="assets/javascript.html">JavaScript</a></li><li class="divider-vertical"></li><li class="dropdown -tm-dropdown"><a data-toggle="dropdown" href="#">TM add-ons<span class="caret"></span></a><ul class="dropdown-menu" role="menu"><li role="presentation"><a role="menuitem" tabindex="-1" href="404.html">Pages</a><ul class="pages"><li><a href="404.html" role="menuitem" tabindex="-1">404 page</a></li><li><a href="assets/under-construction.html" role="menuitem" tabindex="-1">Under Construction</a></li></ul></li><li role="presentation"><a role="menuitem" tabindex="-1" href="assets/portfolio.html">Porfolio</a></li><li role="presentation"><a role="menuitem" tabindex="-1" href="assets/slider.html">Slider</a></li><li role="presentation"><a role="menuitem" tabindex="-1" href="assets/social_media.html">Social and media</a></li></ul></li></ul></nav></div></div></div>');
+        });
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 0) {
+                $("#advanced").css({
+                    position: 'fixed'
+                });
+            } else {
+                $("#advanced").css({
+                    position: 'relative'
+                });
+            }
+        });
+        $(function() {
+            var
+                strCookies1 = $.cookie('panel1'),
+                isAnimate = false,
+                isOpen = false;
+            if (strCookies1 == null) {
+                $.cookie('panel1', 'closed');
+                strCookies1 = $.cookie('panel1');
+                isOpen = false;
+            }
+            if (strCookies1 == 'opened') {
+                $("#advanced").css({
+                    marginTop: '0px'
+                }).removeClass('closed');
+                isOpen = true;
+                $('#stuck_container').trigger('rePosition', 50);
+            } else {
+                $("#advanced").css({
+                    marginTop: '-50px'
+                }).addClass('closed');
+                isOpen = false;
+                $('#stuck_container').trigger('rePosition', 0);
+            }
+            $("#advanced .trigger").click(function() {
+                if (!isOpen) {
+                    $(this).find('strong').animate({
+                        opacity: 0
+                    }).parent().parent('#advanced').removeClass('closed').animate({
+                        marginTop: '0px'
+                    }, 500);
+                    $.cookie('panel1', 'opened');
+                    strCookies1 = $.cookie('panel1');
+                    isOpen = true;
+                    $('#stuck_container').trigger('rePosition', 50);
+                } else {
+                    $(this).find('strong').animate({
+                        opacity: 1
+                    }).parent().parent('#advanced').addClass('closed').animate({
+                        marginTop: '-50px'
+                    }, 700)
+                    $.cookie('panel1', 'closed');
+                    strCookies1 = $.cookie('panel1');
+                    isOpen = false;
+                    $('#stuck_container').trigger('rePosition', 0);
+                }
+            })
+        });;
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));;
+        (function($) {
+            var o = $('.fb-page');
+            $(window).load(function() {
+                o.css({
+                    'display': 'block'
+                }).find('span').css({
+                    'width': '100%',
+                    'display': 'block',
+                    'text-align': 'inherit'
+                }).find('iframe').css({
+                    'display': 'inline-block',
+                    'position': 'static'
+                });
+            });
+            $(window).on('load resize', function() {
+                if (o.parent().width() < o.find('iframe').width()) {
+                    o.find('iframe').css({
+                        'transform': 'scale(' + (o.width() / o.find('iframe').width()) + ')',
+                        'transform-origin': '0% 0%'
+                    }).parent().css({
+                        'height': (o.find('iframe').height() * (o.width() / o.find('iframe').width())) + 'px'
+                    });
+                } else {
+                    o.find('span').css({
+                        'height': 'auto'
+                    }).find('iframe').css({
+                        'transform': 'none'
+                    });
+                }
+            });
+        })(jQuery);;
+        (function($) {
+            if ($('.thumb').length > 0) {
+                $(document).ready(function() {
+                    $('.thumb').touchTouch();
+                });
+            }
+        })(jQuery);;
+        (function($) {
+            $.getScript('<?=base_url()?>public/js/jquery.rd-parallax.js');
+        })(jQuery);
+    </script>
+    <!-- </script> -->
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', '']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    </body>
+    <!-- Google Tag Manager -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9FT69" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');
+        </script>
+    <!-- End Google Tag Manager -->
 </html>
