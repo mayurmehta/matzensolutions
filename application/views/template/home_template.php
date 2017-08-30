@@ -43,23 +43,23 @@
                 <div class="container">
                     <div class="navbar-header">
                         <h1 class="navbar-brand">
-                            <a href="index.html">
+                            <a href="<?=site_url()?>">
                                 Drafting
                             </a>
                         </h1>
                     </div>
 
-                    <nav class="navbar navbar-default navbar-static-top ">
+                    <nav class="navbar navbar-default navbar-static-top">
 
                         <ul class="navbar-nav sf-menu navbar-right" data-type="navbar">
-                            <li class="active">
-                                <a href="index.html">Home</a>
+                            <li <?php if($url=='index' || $url==''){ echo 'class="active"'; } ?>>
+                                <a href="<?=site_url()?>">Home</a>
                             </li>
-                            <li>
-                                <a href="index-1.html">About</a>
+                            <li <?php if($url=='about'){ echo 'class="active"'; } ?>>
+                                <a href="<?=site_url('site/about')?>">About</a>
                             </li>
-                            <li class="dropdown">
-                                <a href="index-2.html">Services</a>
+                            <li <?php if($url=='services'){ echo 'class="active dropdown"'; } else { echo 'class="dropdown"'; } ?>>
+                                <a href="<?=site_url('site/services')?>">Services</a>
                                 <ul class="dropdown-menu">
                                     <li>
                                         <a href="index.html#">Lorem ipsum dolor </a>
@@ -89,12 +89,11 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="index-3.html">Gallery</a>
-                            </li>
-
-                            <li>
-                                <a href="index-4.html">Contacts</a>
+                            </li> -->
+                            <li <?php if($url=='contactus'){ echo 'class="active"'; } ?>>
+                                <a href="<?=site_url('site/contactus')?>">Contacts</a>
                             </li>
                         </ul>
                     </nav>

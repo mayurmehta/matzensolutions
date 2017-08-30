@@ -27,12 +27,12 @@
                     </ul>
                 </div>
                 <div class="col-md-4 col-sm-12 col-xs-12 mg_add wow fadeInRight" data-wow-delay="0.3s">
-                    <img src="images/page-3_img1.png" alt=""/>
+                    <img src="<?=base_url()?>public/images/page-3_img1.png" alt=""/>
                 </div>
             </div>
             <div class="row off1">
                 <div class="col-md-4 col-sm-12 col-xs-12 mg_add wow fadeInLeft" data-wow-delay="0.3s">
-                    <img src="images/page-3_img2.png" alt=""/>
+                    <img src="<?=base_url()?>public/images/page-3_img2.png" alt=""/>
                 </div>
                 <div class="col-md-5 col-sm-12 col-xs-12 wow fadeIn" data-wow-delay="0.5s">
                     <h3>Printed output for Construction Drawings </h3>
@@ -71,7 +71,7 @@
                     </ul>
                 </div>
                 <div class="col-md-4 col-sm-12 col-xs-12 mg_add wow fadeInRight" data-wow-delay="0.3s">
-                    <img src="images/page-3_img3.png" alt=""/>
+                    <img src="<?=base_url()?>public/images/page-3_img3.png" alt=""/>
                 </div>
             </div>
         </div>
@@ -88,9 +88,9 @@
         </div>
     </section>
     <section class="bg-primary text-center">
-        <section class="parallax" data-url="images/parallax1.png" data-mobile="true" data-direction="inverse"
+        <section class="parallax" data-url="<?=base_url()?>public/images/parallax1.png" data-mobile="true" data-direction="inverse"
                  data-speed="0.7">
-            <section class="parallax" data-url="images/parallax2.png" data-mobile="true" data-speed="1.0">
+            <section class="parallax" data-url="<?=base_url()?>public/images/parallax2.png" data-mobile="true" data-speed="1.0">
                 <section class="well well__ins1 ">
                     <div class="container">
                         <h3>What People Say...</h3>
@@ -101,7 +101,7 @@
                                     <div class="hexagon hexagon2">
                                         <div class="hexagon-in1">
                                             <div class="hexagon-in2">
-                                                <img src="images/page-3_img4.jpg" alt=""/>
+                                                <img src="<?=base_url()?>public/images/page-3_img4.jpg" alt=""/>
                                             </div>
                                         </div>
                                     </div>
@@ -123,7 +123,7 @@
                                 <div class="hex">
                                     <div class="hexagon hexagon2">
                                         <div class="hexagon-in1">
-                                            <div class="hexagon-in2"><img src="images/page-3_img5.jpg" alt=""/>
+                                            <div class="hexagon-in2"><img src="<?=base_url()?>public/images/page-3_img5.jpg" alt=""/>
                                             </div>
                                         </div>
                                     </div>
@@ -145,7 +145,7 @@
                                 <div class="hex">
                                     <div class="hexagon hexagon2">
                                         <div class="hexagon-in1">
-                                            <div class="hexagon-in2"><img src="images/page-3_img6.jpg" alt=""/>
+                                            <div class="hexagon-in2"><img src="<?=base_url()?>public/images/page-3_img6.jpg" alt=""/>
                                             </div>
                                         </div>
                                     </div>
