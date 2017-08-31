@@ -27,6 +27,31 @@ class Site extends CI_Controller
 		$this->template->load("home_template","home/services", $this->data);
 	}
 
+	public function steel_shop_drawings_services(){
+		$this->data['page_title'] ="Steel Shop Drawings Services | Matzen Solution";
+		$this->template->load("home_template","home/steel_shop_drawings_services", $this->data);
+	}
+
+	public function rebar_detailing_services(){
+		$this->data['page_title'] ="Rebar Detailing Services | Matzen Solution";
+		$this->template->load("home_template","home/rebar_detailing_services", $this->data);
+	}
+
+	public function mep_and_hvac_services(){
+		$this->data['page_title'] ="MEP & HVAC Services | Matzen Solution";
+		$this->template->load("home_template","home/mep_and_hvac_services", $this->data);
+	}
+
+	public function precast_detailing_services(){
+		$this->data['page_title'] ="Precast Detailing Services | Matzen Solution";
+		$this->template->load("home_template","home/precast_detailing_services", $this->data);
+	}
+
+	public function architectural_engineering_services(){
+		$this->data['page_title'] ="Architectural Engineering Services | Matzen Solution";
+		$this->template->load("home_template","home/architectural_engineering_services", $this->data);
+	}
+
 	public function contactus(){
 		$this->data['page_title'] ="Contact Us | Matzen Solution";
 		$this->template->load("home_template","home/contact", $this->data);

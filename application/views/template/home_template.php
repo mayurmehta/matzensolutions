@@ -62,12 +62,21 @@
                                 <a href="<?=site_url('site/services')?>">Services</a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="index.html#">Lorem ipsum dolor </a>
+                                        <a href="<?=site_url('site/steel_shop_drawings_services')?>">Steel Shop Drawings Services</a>
                                     </li>
                                     <li>
-                                        <a href="index.html#">Ait amet conse </a>
+                                        <a href="<?=site_url('site/rebar_detailing_services')?>">Rebar Detailing Services</a>
                                     </li>
                                     <li>
+                                        <a href="<?=site_url('site/mep_and_hvac_services')?>">MEP & HVAC Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="<?=site_url('site/precast_detailing_services')?>">Precast Detailing Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="<?=site_url('site/architectural_engineering_services')?>">Architectural Engineering Services</a>
+                                    </li>
+                                    <!-- <li>
                                         <a href="index.html#">Ctetur adipisicing elit</a>
                                         <ul class="dropdown-menu">
                                             <li>
@@ -80,20 +89,15 @@
                                                 <a href="index.html#">Sit amet</a>
                                             </li>
                                         </ul>
-                                    </li>
-                                    <li>
-                                        <a href="index.html#">Sed do eiusmod </a>
-                                    </li>
-                                    <li>
-                                        <a href="index.html#">Tempor incididunt </a>
-                                    </li>
+                                    </li> -->
+                                    
                                 </ul>
                             </li>
                             <!-- <li>
                                 <a href="index-3.html">Gallery</a>
                             </li> -->
                             <li <?php if($url=='contactus'){ echo 'class="active"'; } ?>>
-                                <a href="<?=site_url('site/contactus')?>">Contacts</a>
+                                <a href="<?=site_url('site/contactus')?>">Contact Us</a>
                             </li>
                         </ul>
                     </nav>
@@ -113,47 +117,36 @@
         <footer>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 col-sm-6 col-xs-12">
-                        <h4>About</h4>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <h4>Overview</h4>
                         <ul>
-                            <li><a href="index.html#">Lorem ipsum dolor sit amet</a></li>
-                            <li><a href="index.html#">Conse ctetur adipisicing</a></li>
-                            <li><a href="index.html#">Elit sed do eiusmod tempor</a></li>
-                            <li><a href="index.html#">Incididunt ut labore</a></li>
-                            <li><a href="index.html#">Et dolore magna aliqua</a></li>
-                            <li><a href="index.html#">Ut enim ad minim veniam</a></li>
-                            <li><a href="index.html#">Quis nostrud exercitation</a></li>
-                            <li><a href="index.html#">Ullamco laboris nisi</a></li>
+                            <li><a href="<?=site_url()?>">Home</a></li>
+                            <li><a href="<?=site_url('site/about')?>#aboutus">About us</a></li>
+                            <li><a href="<?=site_url('site/about')?>#whychooseus">Why Choose Us?</a></li>
+                            <li><a href="<?=site_url('site/about')?>#ourmission">Our Mission</a></li>
+                            <li><a href="<?=site_url('site/about')?>#ourvalues">Our Core Values</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
                         <h4>Services</h4>
                         <ul>
-                            <li><a href="index.html#">Conse ctetur adipisicing</a></li>
-                            <li><a href="index.html#">Elit sed do eiusmod tempor</a></li>
-                            <li><a href="index.html#">Incididunt ut labore</a></li>
-                            <li><a href="index.html#">Et dolore magna aliqua</a></li>
-                            <li><a href="index.html#">Ut enim ad minim veniam</a></li>
-                            <li><a href="index.html#">Quis nostrud exercitation</a></li>
-                            <li><a href="index.html#">Ullamco laboris nisi</a></li>
+                            <li><a href="<?=site_url('site/steel_shop_drawings_services')?>">Steel Shop Drawings</a></li>
+                            <li><a href="<?=site_url('site/rebar_detailing_services')?>">Rebar Shop Drawings</a></li>
+                            <li><a href="<?=site_url('site/mep_and_hvac_services')?>">MEP & HVAC Services</a></li>
+                            <li><a href="<?=site_url('site/precast_detailing_services')?>">Precast Detailing Services</a></li>
+                            <li><a href="<?=site_url('site/architectural_engineering_services')?>">Architectural Drafting & Designing</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-offset-3 col-md-3 col-sm-12 col-xs-12">
-                        <div class="fb-page" data-href="https://www.facebook.com/TemplateMonster" data-width="280px"
-                             data-height="300px" data-hide-cover="false" data-show-facepile="true"
-                             data-show-posts="false">
-                            <div class="fb-xfbml-parse-ignore">
-                                <blockquote cite="https://www.facebook.com/TemplateMonster"><a
-                                        href="https://www.facebook.com/TemplateMonster">TemplateMonster</a></blockquote>
-                            </div>
-                        </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <h4>Contact Us</h4>
+                        <p style="margin-top: 11px;"><a href="<?=site_url('site/contactus')?>" style="color:#F9AE19;">Contact Us</a> for all your requirements for Tender Projects, Industrial Projects, Residential Projects to be part of structural engineering projects where our role ensures you and your clients quality services with cost effective solutions.</p>
                     </div>
                 </div>
             </div>
             <div class="copyright">
                 <div class="container">
-                    Drafting &#169; <span id="copyright-year"></span> |
-                    <a href="index-5.html">Privacy Policy</a>
+                    Matzen Solutions &#169; <span id="copyright-year"></span>
+                    <!-- | <a href="index-5.html">Privacy Policy</a> -->
                     <!-- {%FOOTER_LINK} -->
                 </div>
             </div>
@@ -177,6 +170,8 @@
     <script src="<?=base_url()?>public/js/wow.js"></script>
     <script src="<?=base_url()?>public/js/camera.js"></script>
     <script src="<?=base_url()?>public/js/jquery.touch-touch.js"></script>
+    <script src="//maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="<?=base_url()?>public/js/jquery.rd-google-map.js"></script>
 
     <script type="text/javascript">
         (function($) {
@@ -227,8 +222,8 @@
         })(jQuery);;
         (function($) {
             if (document.getElementById("google-map")) {
-                $.getScript('//maps.google.com/maps/api/js?sensor=false');
-                $.getScript('<?=base_url()?>public/js/jquery.rd-google-map.js');
+                // $.getScript('//maps.google.com/maps/api/js?sensor=false');
+                // $.getScript('<?=base_url()?>public/js/jquery.rd-google-map.js');
                 $(document).ready(function() {
                     if ($('#google-map').length > 0) {
                         $('#google-map').googleMap({
@@ -466,9 +461,9 @@
     </script>
     </body>
     <!-- Google Tag Manager -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9FT69" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9FT69" height="0" width="0" style="display:none;visibility:hidden"></iframe>
         </noscript>
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');
-        </script>
+        </script> -->
     <!-- End Google Tag Manager -->
 </html>
