@@ -3,7 +3,7 @@
         <div id="camera" class="camera_wrap">
             <div data-src="<?=base_url()?>public/images/page-1_slide01.jpg">
                 <div class="camera_caption fadeIn">
-                    <img class="img_cam" src="<?=base_url()?>public/images/page-1_img01.png" alt=""/>
+                    <img class="img_cam" src="<?=base_url()?>public/images/matzen-logo-without-text.png" alt=""/>
 
                     <h2>Powerful drafting solution for any client</h2>
 
@@ -21,7 +21,7 @@
             </div>
             <div data-src="<?=base_url()?>public/images/page-1_slide02.jpg">
                 <div class="camera_caption fadeIn">
-                    <img class="img_cam" src="<?=base_url()?>public/images/page-1_img01.png" alt=""/>
+                    <img class="img_cam" src="<?=base_url()?>public/images/matzen-logo-without-text.png" alt=""/>
 
                     <h2>Accuracy is the main feature of our drawings</h2>
 
@@ -39,7 +39,7 @@
             </div>
             <div data-src="<?=base_url()?>public/images/page-1_slide03.jpg">
                 <div class="camera_caption fadeIn">
-                    <img class="img_cam" src="<?=base_url()?>public/images/page-1_img01.png" alt=""/>
+                    <img class="img_cam" src="<?=base_url()?>public/images/matzen-logo-without-text.png" alt=""/>
 
                     <h2>Premier drafting services for any project</h2>
 

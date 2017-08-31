@@ -44,7 +44,7 @@
                     <div class="navbar-header">
                         <h1 class="navbar-brand">
                             <a href="<?=site_url()?>">
-                                Drafting
+                                <img src="<?=base_url()?>public/images/matzen-60x60.png">
                             </a>
                         </h1>
                     </div>
