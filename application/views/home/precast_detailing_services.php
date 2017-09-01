@@ -4,57 +4,53 @@
 
         	<div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12 wow fadeInLeft">
-                    <h3>Steel Shop Drawings Services</h3>
+                    <h3>Precast Detailing Services</h3>
 
-                    <p>We are an innovative Steel Shop Drawings company servicing clients across the major countries like USA, Australia, Canada, NZ, South Africa, UAE and worldwide. We specialize in providing our clientele with high quality CAD drafting production and end to end project services, representing core Structural Steel Detailing Services to steel fabricators, contractors, engineers, steel erectors and the construction industry.</p>
+                    <p>Matzen Solutions provide Precast Engineering Services include all detailing and engineering for the design of buildings employing total precast systems, and also for the design of the precast portions of buildings for multiple building systems. We have a special team of Precast Detailers who are very well aware of all types of precast detailing and drawings services to concrete structures with the use of latest softwares and technologies. Our clients include general contractors, engineering companies, architects, erection companies, concrete products manufacturers etc.</p>
 
-                    <p>The team of Matzen Solutions can transform your hand sketches and documents to amazing shop Drawings. The detailers at our company pay special attention to miscellaneous Steel Structural Detailing such as Joist Detailing, Steel Beam Detailing, Steel Gate Detailing and other Detailing which are done by latest The CAD Steel Detailing Services, Steel Drafting Services and Steel Building Design Services provided by Matzen Solutions are among the best that the market offers.</p>
+                    <p>We are pionner in taking from small to medium and large size of projects which includes Residential, Commercial, Industrial, Parking Garages, Warehouses and Bridge Structures globally. We have an extensive experience in Precast Detailing and Drawings which ultimately lead us to deliver a turnkey design project. With the help of Precast Shop Drawings, we are able to fully and clearly define requirements for concepts or products. Matzen Solutions is the best option for you as it is committed to give you the best Precast Detailing Services results at very competitive prices and with the lowest turn around time.</p>
 
-                    <p>Matzen Solutions provides Structural Steel Shop Drawings to healthcare, educational, commercial, government and industrial clients. As industry leaders in the development and use of latest structural software, our models easily interface with steel fabricators’ systems, saving significant time and money in the construction schedule.</p>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-md-9 col-sm-12 col-xs-12">
-                	<h3>We Provide The Below Steel Shop Drawings Services</h3>
-                    <ul class="marked-list-2 wow fadeIn" data-wow-delay="0.5s">
-                        <li>Shop Drawings (Steel Stairs, Steel Canopy, Steel Carport, Staircase Handrail, Steel Grating Detailing etc.)</li>
-                        <li>Erection Drawings</li>
-                        <li>2D Drawings with using latest CAD softwares</li>
-                        <li>3D Modeling Services</li>
-                        <li>Miscellaneous Steel Detailing</li>
-                        <li>Advanced bill of materials</li>
-                        <li>Connections Steel Detailing (i.e. beam-beam connections, beam-column connections, beam-slab connections, column-slab connections, steel framing plans, column-foundation connections, etc.)</li>
-                        <li>Working drawings for structures</li>
-                        <li>Bill of materials for steel shop drawings</li>
-                        <li>Single Part Drawings</li>
-                        <li>Bolt Lists</li>
-                        <li>Part Lists</li>
-                        <li>Reports</li>
-                    </ul>
-                </div>
-                <div class="col-md-3 col-sm-12 col-xs-12 mg_add wow fadeInRight" data-wow-delay="0.3s">
-                    
+                    <h3>List of Services</h3>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-md-3 col-sm-12 col-xs-12">
-                	
-                </div>
-                <div class="col-md-9 col-sm-12 col-xs-12 mg_add wow fadeInRight" data-wow-delay="0.3s">
-                    <h3>We are capable of providing steel detailing drawings and structural fabrication drawings in the following formats and file extension for multiple steel detailing practices</h3>
+                <div class="col-md-4 col-sm-12 col-xs-12">
                     <ul class="marked-list-2 wow fadeIn" data-wow-delay="0.5s">
-                        <li>.DWG format</li>
-                        <li>.DXF formats</li>
-                        <li>.DWF formats</li>
-                        <li>.PDF formats</li>
-                        <li>.CNC files</li>
-                        <li>.NC files</li>
-                        <li>Fabtrol KISS files</li>
+                        <li>Precast Shop Drawings</li>
+                        <li>Precast Concrete Detailing</li>
+                        <li>Tilt-up Panels Detailing</li>
+                        <li>Wall Panels Detailing</li>
+                        <li>Stairs Detailing</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <ul class="marked-list-2 wow fadeIn" data-wow-delay="0.5s">
+                        <li>Cladding Panels Detailing</li>
+                        <li>Beam Detailing</li>
+                        <li>Column Detailing</li>
+                        <li>Erection Drawings</li>
+                        <li>Hollow Core Slab Detailing</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <ul class="marked-list-2 wow fadeIn" data-wow-delay="0.5s">
+                        <li>Concrete Slab Detailing</li>
+                        <li>Post Tension Detailing</li>
+                        <li>Double Tee Detailing</li>
+                        <li>Embedment Plans Detailing</li>
+                        <li>Flat Slab Detailing Services</li>
                     </ul>
                 </div>
             </div>
+
         </div>
     </section>
     <section class="well bg-seconday text-center wow fadeIn" data-wow-delay="0.3s">

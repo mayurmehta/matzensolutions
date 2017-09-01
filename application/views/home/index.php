@@ -14,7 +14,7 @@
                         voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
 
                     <div class="btn-wrap">
-                        <a class="btn btn-secondary2" href="index.html#">Get A Quote</a>
+                        <a class="btn btn-primary" href="index.html#">Get A Quote</a>
                         <!-- <a class="btn btn-default" href="index.html#">Join Our Team</a> -->
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                         voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
 
                     <div class="btn-wrap">
-                        <a class="btn btn-secondary" href="index.html#">Get A Quote</a>
+                        <a class="btn btn-primary" href="index.html#">Get A Quote</a>
                         <!-- <a class="btn btn-default" href="index.html#">Join Our Team</a> -->
                     </div>
                 </div>

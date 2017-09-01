@@ -3,34 +3,46 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-5 col-sm-12 col-xs-12 wow fadeInLeft">
-                    <h3>Design Services including </h3>
+                    <h3>Our Services</h3>
 
-                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                        in reprehen
-                        derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit
-                        amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. </p>
+                    <p>Matzen Solutions provides its clients with the most competitive designs and highest quality drawings and services. This ensures that each design conforms to the client / project requirement and is in accordance with the relevant design codes and regulatory authority requirements.</p>
+
+                    <p>We are specialized in producing detailed structural steel fabrication shop and erection drawings that follow clients' customized standards while maintaining the guidelines set by AISC, NISD, CISC, AS, BS. Our clients are majorly from USA, Canada, Australia, Singapore and New Zealand.</p>
+
+                    <p>We have 100% in-house team of structural steel detailing experts of 2d-3d structural steel detailing to guarantee complete coordination between engineers, fabricators and stake holders from concept to fabrication. Our structural steel detailing services helps structural engineers, steel fabricators, steel erectors, architect, construction supervisors, engineering firms, builders, general contractors and building construction professionals.</p>
+
+                    <p>Expert team of steel detailers at Matzen Solutions combine expertise in most recent structural steel detailing softwares and technologies and experience to convert paper drawings, hand sketches and design notes into a set of easily editable shop drawing formats (.DGN, .DWG, .DXF, .PDF etc).</p>
                 </div>
                 <div class="col-md-3 col-sm-12 col-xs-12">
                     <ul class="marked-list wow fadeIn" data-wow-delay="0.5s">
-                        <li><a href="index-2.html#">Site Analysis</a></li>
-                        <li><a href="index-2.html#">Structure Location on Site</a></li>
-                        <li><a href="index-2.html#"> Water / Sewer / Road Spatial Relationships</a></li>
-                        <li><a href="index-2.html#">Site Planning</a></li>
-                        <li><a href="index-2.html#">Energy Efficiency Design</a></li>
-                        <li><a href="index-2.html#">Conceptual Renderings</a></li>
-                        <li><a href="index-2.html#">AutoCAD 3D simulations</a></li>
-                        <li><a href="index-2.html#">SketchUp solid modelling </a></li>
+                        <li><a href="javascript:void(0)">Steel Shop Drawings Services</a></li>
+                        <li><a href="javascript:void(0)">Steel Members Detailing</a></li>
+                        <li><a href="javascript:void(0)">Steel Erection Drawings</a></li>
+                        <li><a href="javascript:void(0)">Fabrication Shop Drawings</a></li>
+                        <li><a href="javascript:void(0)">Stair Handrail Detailing</a></li>
+                        <li><a href="javascript:void(0)">Anchor Bolt Plan Drawings</a></li>
+                        <li><a href="javascript:void(0)">Staircase Detailing</a></li>
+                        <li><a href="javascript:void(0)">Steel Grating Detailing</a></li>
+                        <li><a href="javascript:void(0)">Assemly Drawings</a></li>
+                        <li><a href="javascript:void(0)">General Arrangement Drawings</a></li>
+                        <li><a href="javascript:void(0)">BOM ( Bill of Materials)</a></li>
+                        <li><a href="javascript:void(0)">Fence Detailing</a></li>
+                        <li><a href="javascript:void(0)">Metal Detailing</a></li>
+                        <li><a href="javascript:void(0)">Precast Detailing</a></li>
+                        <li><a href="javascript:void(0)">Post-tension Detailing</a></li>
+                        <li><a href="javascript:void(0)">Reinforced Concrete Detailing</a></li>
+                        <li><a href="javascript:void(0)">Rebar Estimation Services</a></li>
+                        <li><a href="javascript:void(0)">MEP & HVAC Services</a></li>
+                        <li><a href="javascript:void(0)">BIM Services (Building Information Modeling)
+</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 col-sm-12 col-xs-12 mg_add wow fadeInRight" data-wow-delay="0.3s">
                     <img src="<?=base_url()?>public/images/page-3_img1.png" alt=""/>
                 </div>
             </div>
-            <div class="row off1">
+            
+            <!-- <div class="row off1">
                 <div class="col-md-4 col-sm-12 col-xs-12 mg_add wow fadeInLeft" data-wow-delay="0.3s">
                     <img src="<?=base_url()?>public/images/page-3_img2.png" alt=""/>
                 </div>
@@ -73,21 +85,25 @@
                 <div class="col-md-4 col-sm-12 col-xs-12 mg_add wow fadeInRight" data-wow-delay="0.3s">
                     <img src="<?=base_url()?>public/images/page-3_img3.png" alt=""/>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
     <section class="well bg-seconday text-center wow fadeIn" data-wow-delay="0.3s">
         <div class="container">
-            <h3>Premier drafting services for any project</h3>
+            <h3>Click here to Request a Free Quote or Call us</h3>
 
-            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt
+            <div class="btn-wrap margin_top_20">
+                <a class="btn btn-primary" href="index.html#">Get A Free Quote</a>
+            </div>
+
+            <!-- <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt
                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
                 esse
-                cillum dolore eu fugiat nulla pariatur. </p>
+                cillum dolore eu fugiat nulla pariatur. </p> -->
         </div>
     </section>
-    <section class="bg-primary text-center">
+    <!-- <section class="bg-primary text-center">
         <section class="parallax" data-url="<?=base_url()?>public/images/parallax1.png" data-mobile="true" data-direction="inverse"
                  data-speed="0.7">
             <section class="parallax" data-url="<?=base_url()?>public/images/parallax2.png" data-mobile="true" data-speed="1.0">
@@ -168,5 +184,5 @@
                 </section>
             </section>
         </section>
-    </section>
+    </section> -->
 </main>
