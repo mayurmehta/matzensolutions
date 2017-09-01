@@ -57,6 +57,16 @@ class Site extends CI_Controller
 		$this->template->load("home_template","home/contact", $this->data);
 	}
 
+	// Save Contact Us Data
+	public function saveContactUs(){
+		$this->load->model('save_data');
+		$data = $_POST;
 
+		$result = $this->save_data->save_contact_data($data);
+		if($result == '1'){
+			echo 'MF000';
+			exit;
+		}
+	}
 
 }

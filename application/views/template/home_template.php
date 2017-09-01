@@ -13,6 +13,8 @@
         <!-- Bootstrap -->
         <link href="<?=base_url()?>public/css/bootstrap.css" rel="stylesheet">
 
+        <link href="<?=base_url()?>public/css/mailform.css" rel="stylesheet">
+
         <!-- Links -->
         <link href="<?=base_url()?>public/css/camera.css" rel="stylesheet">
 
@@ -172,6 +174,9 @@
     <script src="<?=base_url()?>public/js/jquery.touch-touch.js"></script>
     <script src="//maps.google.com/maps/api/js?sensor=false"></script>
     <script src="<?=base_url()?>public/js/jquery.rd-google-map.js"></script>
+    <script src="<?=base_url()?>public/js/jquery.rd-parallax.js"></script>
+    <script src="<?=base_url()?>public/js/mailform/jquery.form.min.js"></script>
+    <script src="<?=base_url()?>public/js/mailform/jquery.rd-mailform.min.js"></script>
 
     <script type="text/javascript">
         (function($) {
@@ -329,123 +334,7 @@
                     })
                 });
             }
-        })(jQuery);;
-        (function($) {
-            $.getScript('<?=base_url()?>public/js/mailform/jquery.form.min.js');
-            $.getScript('<?=base_url()?>public/js/mailform/jquery.rd-mailform.min.js');
-        })(jQuery);
-        $.getScript('<?=base_url()?>public/js/jquery.cookie.js');
-        $(document).ready(function() {
-            $('head').append('<link rel="stylesheet" href="public/assets/tm/css/tm_docs.css" type="text/css" media="screen"><link href="css/tm_panel.css" rel="stylesheet">');
-            $('body').prepend('<div id="panel"><div class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner" id="advanced"><span class="trigger"><strong></strong><em></em></span><div class="container"><div class="navbar-header"><button class="navbar-toggle tm_offs1" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div><nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation"><ul class="nav navbar-nav"><li class="home"><a href="index.html" class="glyphicon glyphicon-home"></a></li><li class="divider-vertical"></li><li><a href="assets/getting-started.html">Getting started</a></li><li><a href="assets/css.html">CSS</a></li><li><a href="assets/components.html">Components</a></li><li><a href="assets/javascript.html">JavaScript</a></li><li class="divider-vertical"></li><li class="dropdown -tm-dropdown"><a data-toggle="dropdown" href="#">TM add-ons<span class="caret"></span></a><ul class="dropdown-menu" role="menu"><li role="presentation"><a role="menuitem" tabindex="-1" href="404.html">Pages</a><ul class="pages"><li><a href="404.html" role="menuitem" tabindex="-1">404 page</a></li><li><a href="assets/under-construction.html" role="menuitem" tabindex="-1">Under Construction</a></li></ul></li><li role="presentation"><a role="menuitem" tabindex="-1" href="assets/portfolio.html">Porfolio</a></li><li role="presentation"><a role="menuitem" tabindex="-1" href="assets/slider.html">Slider</a></li><li role="presentation"><a role="menuitem" tabindex="-1" href="assets/social_media.html">Social and media</a></li></ul></li></ul></nav></div></div></div>');
-        });
-        $(window).scroll(function() {
-            if ($(this).scrollTop() > 0) {
-                $("#advanced").css({
-                    position: 'fixed'
-                });
-            } else {
-                $("#advanced").css({
-                    position: 'relative'
-                });
-            }
-        });
-        $(function() {
-            var
-                strCookies1 = $.cookie('panel1'),
-                isAnimate = false,
-                isOpen = false;
-            if (strCookies1 == null) {
-                $.cookie('panel1', 'closed');
-                strCookies1 = $.cookie('panel1');
-                isOpen = false;
-            }
-            if (strCookies1 == 'opened') {
-                $("#advanced").css({
-                    marginTop: '0px'
-                }).removeClass('closed');
-                isOpen = true;
-                $('#stuck_container').trigger('rePosition', 50);
-            } else {
-                $("#advanced").css({
-                    marginTop: '-50px'
-                }).addClass('closed');
-                isOpen = false;
-                $('#stuck_container').trigger('rePosition', 0);
-            }
-            $("#advanced .trigger").click(function() {
-                if (!isOpen) {
-                    $(this).find('strong').animate({
-                        opacity: 0
-                    }).parent().parent('#advanced').removeClass('closed').animate({
-                        marginTop: '0px'
-                    }, 500);
-                    $.cookie('panel1', 'opened');
-                    strCookies1 = $.cookie('panel1');
-                    isOpen = true;
-                    $('#stuck_container').trigger('rePosition', 50);
-                } else {
-                    $(this).find('strong').animate({
-                        opacity: 1
-                    }).parent().parent('#advanced').addClass('closed').animate({
-                        marginTop: '-50px'
-                    }, 700)
-                    $.cookie('panel1', 'closed');
-                    strCookies1 = $.cookie('panel1');
-                    isOpen = false;
-                    $('#stuck_container').trigger('rePosition', 0);
-                }
-            })
-        });;
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));;
-        (function($) {
-            var o = $('.fb-page');
-            $(window).load(function() {
-                o.css({
-                    'display': 'block'
-                }).find('span').css({
-                    'width': '100%',
-                    'display': 'block',
-                    'text-align': 'inherit'
-                }).find('iframe').css({
-                    'display': 'inline-block',
-                    'position': 'static'
-                });
-            });
-            $(window).on('load resize', function() {
-                if (o.parent().width() < o.find('iframe').width()) {
-                    o.find('iframe').css({
-                        'transform': 'scale(' + (o.width() / o.find('iframe').width()) + ')',
-                        'transform-origin': '0% 0%'
-                    }).parent().css({
-                        'height': (o.find('iframe').height() * (o.width() / o.find('iframe').width())) + 'px'
-                    });
-                } else {
-                    o.find('span').css({
-                        'height': 'auto'
-                    }).find('iframe').css({
-                        'transform': 'none'
-                    });
-                }
-            });
-        })(jQuery);;
-        (function($) {
-            if ($('.thumb').length > 0) {
-                $(document).ready(function() {
-                    $('.thumb').touchTouch();
-                });
-            }
-        })(jQuery);;
-        (function($) {
-            $.getScript('<?=base_url()?>public/js/jquery.rd-parallax.js');
-        })(jQuery);
+        })(jQuery);;  
     </script>
     <!-- </script> -->
 
@@ -460,10 +349,4 @@
         })();
     </script>
     </body>
-    <!-- Google Tag Manager -->
-        <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9FT69" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-        </noscript>
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');
-        </script> -->
-    <!-- End Google Tag Manager -->
 </html>
