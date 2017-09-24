@@ -3,8 +3,8 @@
         <div class="container">
             <h3>How to Find Us</h3>
 
-            <div class="map text-left">
-                <!-- <div id="google-map" class="map_model"></div> -->
+            <!-- <div class="map text-left">
+                <div id="google-map" class="map_model"></div>
                 <ul class="map_locations">
                     <li data-x="-73.9874068" data-y="40.643180">
                         <p> 9870 St Vincent Place, Glasgow, DC 45 Fr 45. <span>800 2345-6789</span></p>
@@ -20,14 +20,14 @@
                 montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio,
                 gravida
                 at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna.
-                Donec accumsan malesuada orci. </p>
+                Donec accumsan malesuada orci. </p> -->
 
             <div class="row">
                 <div class="col-md-3 col-sm-4 col-xs-12 col-md-offset-2">
                     <span class="fa-home"></span>
                     <address class="contact-info">
-                        8901 Marmora Road,<br/>
-                        Glasgow, D04 89GR.
+                        Incometax<br/>
+                        Ahmedabad
                     </address>
                 </div>
                 <div class="col-md-3 col-sm-4 col-xs-12">
@@ -52,52 +52,32 @@
             <section class="parallax" data-url="<?=base_url()?>public/images/parallax2.png" data-mobile="true" data-speed="1.0">
                 <section class="well well__ins4">
                     <div class="container">
-                        <h3 class="center">Contact Form</h3>
 
-                        <div class="mailform_wrap">
-                            <form class='mailform' method="post" action="<?=site_url('site/saveContactUs')?>">
-                                <input type="hidden" name="form-type" value="contact"/>
-                                <fieldset>
-                                    <div class="row">
-                                        <div class="col-md-6 col-sm-12 col-xs-12">
-                                            <label data-add-placeholder="">
-                                                <input type="text"
-                                                       name="name"
-                                                       placeholder="Name:"
-                                                       data-constraints="@LettersOnly @NotEmpty"/>
-                                            </label>
+                        <h3 class="center">Contact Us</h3>
+                        <br>
 
-                                            <label data-add-placeholder="">
-                                                <input type="text"
-                                                       name="phone"
-                                                       placeholder="Phone:"
-                                                       data-constraints="@Phone"/>
-                                            </label>
+                        <form method="post" action="<?=site_url('site/saveContactUs')?>">
+                            <div class="col-md-6 col-sm-12 col-xs-12">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 col-xs-12">
+                                <div class="form-group">
+                                    <textarea name="message" class="form-control big-textarea" placeholder="Message" required></textarea>
+                                </div>
+                            </div>
 
-                                            <label data-add-placeholder="">
-                                                <input type="text"
-                                                       name="email"
-                                                       placeholder="Email:"
-                                                       data-constraints="@Email @NotEmpty"/>
-                                            </label>
-                                        </div>
+                            <button class="btn btn-secondary btn-lg" type="submit">Send Message</button>
+                        </form>
 
-                                        <div class="col-md-6 col-sm-12 col-xs-12">
-                                            <label class="textarea" data-add-placeholder="">
-                                                                  <textarea name="message" placeholder="Message:"
-                                                                            data-constraints="@NotEmpty"></textarea>
-                                            </label>
-                                        </div>
-                                    </div>
-
-                                    <div class="mfControls">
-                                        <button class="btn btn-secondary btn-lg" type="submit">Send Message</button>
-                                    </div>
-
-                                </fieldset>
-                            </form>
-
-                        </div>
+                        
                     </div>
                 </section>
             </section>

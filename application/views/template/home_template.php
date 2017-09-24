@@ -15,6 +15,8 @@
 
         <link href="<?=base_url()?>public/css/mailform.css" rel="stylesheet">
 
+        <link href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css" rel="stylesheet">
+
         <!-- Links -->
         <link href="<?=base_url()?>public/css/camera.css" rel="stylesheet">
 
@@ -60,7 +62,7 @@
                             <li <?php if($url=='about'){ echo 'class="active"'; } ?>>
                                 <a href="<?=site_url('site/about')?>">About</a>
                             </li>
-                            <li <?php if($url=='services'){ echo 'class="active dropdown"'; } else { echo 'class="dropdown"'; } ?>>
+                            <li <?php if($url=='services' || $url=='steel_shop_drawings_services' || $url=='rebar_detailing_services' || $url=='mep_and_hvac_services' || $url=='precast_detailing_services' || $url=='architectural_engineering_services'){ echo 'class="active dropdown"'; } else { echo 'class="dropdown"'; } ?>>
                                 <a href="<?=site_url('site/services')?>">Services</a>
                                 <ul class="dropdown-menu">
                                     <li>
@@ -78,28 +80,16 @@
                                     <li>
                                         <a href="<?=site_url('site/architectural_engineering_services')?>">Architectural Engineering Services</a>
                                     </li>
-                                    <!-- <li>
-                                        <a href="index.html#">Ctetur adipisicing elit</a>
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                <a href="index.html#">Lorem</a>
-                                            </li>
-                                            <li>
-                                                <a href="index.html#">Dolor</a>
-                                            </li>
-                                            <li>
-                                                <a href="index.html#">Sit amet</a>
-                                            </li>
-                                        </ul>
-                                    </li> -->
-                                    
                                 </ul>
                             </li>
-                            <!-- <li>
-                                <a href="index-3.html">Gallery</a>
+                            <!-- <li <?php if($url=='projects'){ echo 'class="active"'; } ?>>
+                                <a href="<?=site_url('site/projects')?>">Our Projects</a>
                             </li> -->
                             <li <?php if($url=='contactus'){ echo 'class="active"'; } ?>>
                                 <a href="<?=site_url('site/contactus')?>">Contact Us</a>
+                            </li>
+                            <li <?php if($url=='get_quote'){ echo 'class="active"'; } ?>>
+                                <a href="<?=site_url('site/get_quote')?>">Get Quote</a>
                             </li>
                         </ul>
                     </nav>
@@ -175,8 +165,12 @@
     <script src="//maps.google.com/maps/api/js?sensor=false"></script>
     <script src="<?=base_url()?>public/js/jquery.rd-google-map.js"></script>
     <script src="<?=base_url()?>public/js/jquery.rd-parallax.js"></script>
-    <script src="<?=base_url()?>public/js/mailform/jquery.form.min.js"></script>
-    <script src="<?=base_url()?>public/js/mailform/jquery.rd-mailform.min.js"></script>
+    <script src="<?=base_url()?>public/js/jquery.responsive.tabs.js"></script>
+    <!-- <script src="<?=base_url()?>public/js/mailform/jquery.form.min.js"></script>
+    <script src="<?=base_url()?>public/js/mailform/jquery.rd-mailform.min.js"></script> -->
+
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
 
     <script type="text/javascript">
         (function($) {
@@ -201,14 +195,7 @@
                 $("#copyright-year").text((new Date).getFullYear());
             });
         })(jQuery);;
-        (function($) {
-            if ($('.resp-tabs').length > 0) {
-                $.getScript('<?=base_url()?>public/js/jquery.responsive.tabs.js');
-                $(document).ready(function() {
-                    $('.resp-tabs').easyResponsiveTabs();
-                });
-            }
-        })(jQuery);;
+        
         (function($) {
             $.getScript('<?=base_url()?>public/js/jquery.rd-navbar.js');
         })(jQuery);;
@@ -263,6 +250,14 @@
                             }
                         }
                     });
+                });
+            }
+        })(jQuery);;
+        (function($) {
+            if ($('.resp-tabs').length > 0) {
+                // $.getScript('<?=base_url()?>public/js/jquery.responsive.tabs.js');
+                $(document).ready(function() {
+                    $('.resp-tabs').easyResponsiveTabs();
                 });
             }
         })(jQuery);;
@@ -337,6 +332,12 @@
         })(jQuery);;  
     </script>
     <!-- </script> -->
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.selectpicker').selectpicker();
+        });
+    </script>
 
     <script type="text/javascript">
         var _gaq = _gaq || [];

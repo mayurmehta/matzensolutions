@@ -237,11 +237,13 @@
     <section class="well bg-seconday text-center wow fadeIn" data-wow-delay="0.2s">
         <div class="container">
             <h3>Accuracy is the main feature of our drawings</h3>
+            <h3>Powerful drafting solution for any client</h3>
+            <h3>Premier drafting services for any project</h3>
 
-            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+            <!-- <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur.</p>
+                cillum dolore eu fugiat nulla pariatur.</p> -->
         </div>
     </section>
 </main>

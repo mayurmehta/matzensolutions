@@ -22,6 +22,11 @@ class Site extends CI_Controller
 		$this->template->load("home_template","home/about", $this->data);
 	}
 
+	public function projects(){
+		$this->data['page_title'] ="Our Projects | Matzen Solution";
+		$this->template->load("home_template","home/projects", $this->data);
+	}
+
 	public function services(){
 		$this->data['page_title'] ="Services | Matzen Solution";
 		$this->template->load("home_template","home/services", $this->data);
@@ -53,8 +58,22 @@ class Site extends CI_Controller
 	}
 
 	public function contactus(){
+		if(isset($_GET['msg']) && $_GET['msg'] == '1'){
+			$this->data['show_msg'] = 1;
+		}
 		$this->data['page_title'] ="Contact Us | Matzen Solution";
 		$this->template->load("home_template","home/contact", $this->data);
+	}
+
+	public function get_quote(){
+		if(isset($_GET['msg']) && $_GET['msg'] == '1'){
+			$this->data['show_msg'] = 1;
+		}
+		$this->load->model('save_data');
+
+		$this->data['page_title'] ="Get A Quote | Matzen Solution";
+		$this->data['country_codes'] = $this->save_data->getCountryCodeData();
+		$this->template->load("home_template","home/get_quote", $this->data);
 	}
 
 	// Save Contact Us Data
@@ -64,8 +83,25 @@ class Site extends CI_Controller
 
 		$result = $this->save_data->save_contact_data($data);
 		if($result == '1'){
-			echo 'MF000';
-			exit;
+			header('location: '. site_url('site/contactus?msg=1'));
+		}
+	}
+
+	// Save Quotation Data
+	public function saveQuotation(){
+		$this->load->model('save_data');
+		$data = $_POST;
+		
+		$country_data = explode("-", $data['country_code']);
+		$code = $country_data[0];
+		$country_name = $country_data[1];
+
+		$data['country_code'] = $code;
+		$data['country_name'] = $country_name;
+
+		$result = $this->save_data->save_quotation_data($data);
+		if($result == '1'){
+			header('location: '. site_url('site/get_quote?msg=1'));
 		}
 	}
 

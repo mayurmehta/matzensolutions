@@ -1,4 +1,4 @@
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);@import "animate.css";
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);@import "animate.css";
 
 
 
@@ -1806,6 +1806,9 @@ input, button, select, textarea {
     font-size: inherit;
     line-height: inherit;
 }
+
+
+
 a {
     font: inherit;
     color: inherit;
@@ -2598,6 +2601,19 @@ dt, dd {
     display: inline-block;
     margin-top: 28px;
 }
+
+.fa-clock-o, .fa-calendar-check-o, .fa-usd, .fa-line-chart, .fa-check-square-o, .fa-handshake-o, .fa-cogs, .fa-thumbs-o-up {
+	font-size: 30px;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin-top: 11px;
+}
+
+.fa-check-square-o {
+	padding-left: 5px;
+}
+
 .fa-shield {
     line-height: 35px;
 }
@@ -4944,6 +4960,11 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 }
 .navbar-nav>li {
     float: left;
+
+    /* Added By Mayur */
+    height: 33px;
+    padding: 5px;
+    border-radius: 2px;
 }
 .navbar-nav>li>a {
     padding: 22px 17px 23px;
@@ -4995,9 +5016,21 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 .navbar-default .navbar-nav>li>a:focus {
     color: #777777;
 }
-.navbar-default .navbar-nav>li>a:hover {
-    color: #333333;
-    background-color: transparent;
+
+/* Added By Mayur: START */
+.navbar-default .navbar-nav>li:hover, .navbar-default .navbar-nav>li.active {
+    background-color: #F39200;
+}
+/* Added By Mayur: END */
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li.active>a {
+	/* Removed By Mayur */
+    /*color: #333333;
+    background-color: transparent;*/
+
+    /* Added By Mayur: START */
+    color: #FFFFFF;
+    /* Added By Mayur: END */
 }
 .navbar-default .navbar-nav>li>.active>a, .navbar-default .navbar-nav>li>.sfHover>a, .navbar-default .navbar-nav>li>.active>a:hover, .navbar-default .navbar-nav>li>.sfHover>a:hover, .navbar-default .navbar-nav>li>.active>a:focus, .navbar-default .navbar-nav>li>.sfHover>a:focus {
     color: #333333;
@@ -5007,11 +5040,14 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
     color: #cccccc;
     background-color: transparent;
 }
-.navbar-default .navbar-nav>li.active>a {
-    color: #333333;
-}
+
 .navbar-default .navbar-nav>li+li {
     margin-left: 30px;
+
+    /* Added By Mayur */
+    height: 33px;
+    padding: 5px;
+    border-radius: 2px;
 }
 .navbar-inverse {
     background-color: #222222;
@@ -5132,7 +5168,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 }
 @media (max-width: 767px)  {
     .dropdown-menu {
-    display: block;
+    display: none;
     position: relative;
     float: none;
     width: auto;
@@ -6860,3 +6896,72 @@ button.close {
     display: none !important;
   }
 }
+
+
+
+
+/* Added By Mayur :START */
+.form-group label {
+	font-size: 20px;
+	float: left;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+	background: transparent;
+}
+
+.form-group select > option {
+	background: #252525;
+}
+
+.form-group select.country-code {
+	width: 30%;
+	float: left;
+}
+
+.form-group input.phone {
+	width: 70%;
+}
+
+.form-group .bootstrap-select {
+	background: transparent;
+	border-radius: 0;
+	width: 30% !important;
+    float: left !important;
+}
+
+.form-group .dropdown-toggle {
+	height: 61px;
+	border-radius: 0;
+	font-size: 14px;
+	border-color: none !important;
+}
+
+.form-group .dropdown-toggle > span.filter-option {
+	padding-top: 6px;
+    color: #888888;
+}
+
+.form-group .btn-default:hover {
+	background: transparent;
+	border-radius: 0;
+	border-color: none;
+}
+
+.bs-searchbox .form-control {
+	height: 40px;
+}
+
+.bootstrap-select.btn-group .dropdown-menu {
+	margin: 0;
+}
+
+.bootstrap-select.btn-group .dropdown-menu > ul {
+	color: #888888;
+}
+
+.big-textarea {
+	height: 213px !important;
+}
+
+/* Added By Mayur :END */

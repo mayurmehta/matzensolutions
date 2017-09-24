@@ -53,21 +53,9 @@
             
         </div>
     </section>
-    <section class="well bg-seconday text-center wow fadeIn" data-wow-delay="0.3s">
-        <div class="container">
-            <h3>Click here to Request a Free Quote or Call us</h3>
+    
+    <?php include_once('common_section_req_quote.php'); ?>
 
-            <div class="btn-wrap margin_top_20">
-                <a class="btn btn-primary" href="index.html#">Get A Free Quote</a>
-            </div>
-
-            <!-- <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                esse
-                cillum dolore eu fugiat nulla pariatur. </p> -->
-        </div>
-    </section>
     <!-- <section class="bg-primary text-center">
         <section class="parallax" data-url="<?=base_url()?>public/images/parallax1.png" data-mobile="true" data-direction="inverse"
                  data-speed="0.7">

@@ -7,14 +7,15 @@
 
                     <h2>Powerful drafting solution for any client</h2>
 
-                    <p class="off1">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor
+                    <br>
+                    <!-- <p class="off1">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor
                         incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                         laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p> -->
 
                     <div class="btn-wrap">
-                        <a class="btn btn-primary" href="index.html#">Get A Quote</a>
+                        <a class="btn btn-primary" href="<?=site_url('site/get_quote')?>">Get A Quote</a>
                         <!-- <a class="btn btn-default" href="index.html#">Join Our Team</a> -->
                     </div>
                 </div>
@@ -25,14 +26,15 @@
 
                     <h2>Accuracy is the main feature of our drawings</h2>
 
-                    <p class="off1">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor
+                    <br>
+                    <!-- <p class="off1">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor
                         incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                         laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p> -->
 
                     <div class="btn-wrap">
-                        <a class="btn btn-primary" href="index.html#">Get A Quote</a>
+                        <a class="btn btn-primary" href="<?=site_url('site/get_quote')?>">Get A Quote</a>
                         <!-- <a class="btn btn-default" href="index.html#">Join Our Team</a> -->
                     </div>
                 </div>
@@ -43,14 +45,15 @@
 
                     <h2>Premier drafting services for any project</h2>
 
-                    <p class="off1">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor
+                    <br>
+                    <!-- <p class="off1">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor
                         incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                         laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p> -->
 
                     <div class="btn-wrap">
-                        <a class="btn btn-primary" href="index.html#">Get A Quote</a>
+                        <a class="btn btn-primary" href="<?=site_url('site/get_quote')?>">Get A Quote</a>
                         <!-- <a class="btn btn-default" href="index.html#">Join Our Team</a> -->
                     </div>
                 </div>
@@ -93,8 +96,10 @@
                                 <div class="media-left">
                                     <div class="hexagon hexagon1">
                                         <div class="hexagon-in1">
-                                            <div class="hexagon-in2 hexagon-in2__col1"><span
-                                                    class="fa-cubes"></span></div>
+                                            <div class="hexagon-in2 hexagon-in2__col1">
+                                                <span class="fa-clock-o"></span>
+                                                <!-- <i class="fa fa-clock-o" aria-hidden="true"></i> -->
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -115,7 +120,7 @@
                                     <div class="hexagon hexagon1">
                                         <div class="hexagon-in1">
                                             <div class="hexagon-in2 hexagon-in2__col3"><span
-                                                    class="fa-pencil"></span></div>
+                                                    class="fa-cogs"></span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -135,7 +140,7 @@
                                     <div class="hexagon hexagon1">
                                         <div class="hexagon-in1">
                                             <div class="hexagon-in2 hexagon-in2__col6"><span
-                                                    class="fa-signal"></span></div>
+                                                    class="fa-calendar-check-o"></span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -155,7 +160,7 @@
                                     <div class="hexagon hexagon1">
                                         <div class="hexagon-in1">
                                             <div class="hexagon-in2 hexagon-in2__col4"><span
-                                                    class="fa-shield"></span></div>
+                                                    class="fa-usd"></span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -176,7 +181,7 @@
                                     <div class="hexagon hexagon1">
                                         <div class="hexagon-in1">
                                             <div class="hexagon-in2 hexagon-in2__col6"><span
-                                                    class="fa-signal"></span></div>
+                                                    class="fa-line-chart"></span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -197,7 +202,7 @@
                                     <div class="hexagon hexagon1">
                                         <div class="hexagon-in1">
                                             <div class="hexagon-in2 hexagon-in2__col6"><span
-                                                    class="fa-signal"></span></div>
+                                                    class="fa-check-square-o"></span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -217,7 +222,7 @@
                                     <div class="hexagon hexagon1">
                                         <div class="hexagon-in1">
                                             <div class="hexagon-in2 hexagon-in2__col5"><span
-                                                    class="fa-laptop"></span></div>
+                                                    class="fa-handshake-o"></span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -259,7 +264,7 @@
                                     <div class="hexagon hexagon1">
                                         <div class="hexagon-in1">
                                             <div class="hexagon-in2 hexagon-in2__col6"><span
-                                                    class="fa-signal"></span></div>
+                                                    class="fa-thumbs-o-up"></span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -286,38 +291,38 @@
                 <img src="<?=base_url()?>public/images/page-1_img03.jpg" alt=""/>
 
                 <h3>Steel Shop Drawings <br> Services</h3>
-                <a href="index.html#" class="btn btn-primary">Read More</a>
+                <a href="<?=site_url('site/steel_shop_drawings_services')?>" class="btn btn-primary">Read More</a>
             </li>
             <li>
                 <img src="<?=base_url()?>public/images/page-1_img04.jpg" alt=""/>
 
                 <h3>Rebar Detailing <br> Services</h3>
-                <a href="index.html#" class="btn btn-primary">Read More</a>
+                <a href="<?=site_url('site/rebar_detailing_services')?>" class="btn btn-primary">Read More</a>
             </li>
             <li>
                 <img src="<?=base_url()?>public/images/page-1_img05.jpg" alt=""/>
 
                 <h3>MEP & HVAC <br> Services</h3>
-                <a href="index.html#" class="btn btn-primary">Read More</a>
+                <a href="<?=site_url('site/mep_and_hvac_services')?>" class="btn btn-primary">Read More</a>
             </li>
             <li>
                 <img src="<?=base_url()?>public/images/page-1_img06.jpg" alt=""/>
 
                 <h3>Precast Detailing <br/> Services</h3>
-                <a href="index.html#" class="btn btn-primary">Read More</a>
+                <a href="<?=site_url('site/precast_detailing_services')?>" class="btn btn-primary">Read More</a>
             </li>
             <li>
                 <img src="<?=base_url()?>public/images/page-1_img06.jpg" alt=""/>
 
                 <h3>Architectural Engineering <br/> Services</h3>
-                <a href="index.html#" class="btn btn-primary">Read More</a>
+                <a href="<?=site_url('site/architectural_engineering_services')?>" class="btn btn-primary">Read More</a>
             </li>
-            <li>
+            <!-- <li>
                 <img src="<?=base_url()?>public/images/page-1_img06.jpg" alt=""/>
 
                 <h3>+ Add One +</h3>
                 <a href="index.html#" class="btn btn-primary">Read More</a>
-            </li>
+            </li> -->
         </ul>
     </section>
     <section class="well1 well1__ins1 text-center">
@@ -338,7 +343,9 @@
             </div>
         </div>
     </section>
-    <section class="well well__ins2 bg-primary text-center">
+
+    
+    <!-- <section class="well well__ins2 bg-primary text-center">
         <div class="container">
             <h3>Our Latest Projects:</h3>
 
@@ -462,5 +469,5 @@
             </div>
             <a class="btn btn-secondary btn-xl" href="index.html#">See all</a>
         </div>
-    </section>
+    </section> -->
 </main>
