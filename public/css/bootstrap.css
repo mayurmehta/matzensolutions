@@ -6964,4 +6964,32 @@ button.close {
 	height: 213px !important;
 }
 
+.image_thumb {
+	margin: 0 10px;
+}
+
+.image_type_list {
+	display: block;
+	width: 100%;
+}
+
+.image_type_list ul li {
+	cursor: pointer;
+	display: inline-block;
+	margin: 0 11px;
+}
+
+.image_type_list ul li h4 {
+	color: #777777;
+}
+
+.image_type_list ul li h4:hover, .image_type_list ul li.active h4 {
+	color: #2b5a9b;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
 /* Added By Mayur :END */

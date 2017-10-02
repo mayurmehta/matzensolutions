@@ -15,6 +15,8 @@
 
         <link href="<?=base_url()?>public/css/mailform.css" rel="stylesheet">
 
+        <link href="<?=base_url()?>public/css/jquery.fancybox.min.css" rel="stylesheet">
+
         <link href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css" rel="stylesheet">
 
         <!-- Links -->
@@ -82,9 +84,9 @@
                                     </li>
                                 </ul>
                             </li>
-                            <!-- <li <?php if($url=='projects'){ echo 'class="active"'; } ?>>
+                            <li <?php if($url=='projects'){ echo 'class="active"'; } ?>>
                                 <a href="<?=site_url('site/projects')?>">Our Projects</a>
-                            </li> -->
+                            </li>
                             <li <?php if($url=='contactus'){ echo 'class="active"'; } ?>>
                                 <a href="<?=site_url('site/contactus')?>">Contact Us</a>
                             </li>
@@ -166,6 +168,8 @@
     <script src="<?=base_url()?>public/js/jquery.rd-google-map.js"></script>
     <script src="<?=base_url()?>public/js/jquery.rd-parallax.js"></script>
     <script src="<?=base_url()?>public/js/jquery.responsive.tabs.js"></script>
+    <script src="<?=base_url()?>public/js/jquery.fancybox.min.js"></script>
+
     <!-- <script src="<?=base_url()?>public/js/mailform/jquery.form.min.js"></script>
     <script src="<?=base_url()?>public/js/mailform/jquery.rd-mailform.min.js"></script> -->
 
@@ -349,5 +353,21 @@
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
         })();
     </script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.hideAll').hide();
+            $('.beams').show();
+            $('.image_type_list ul li:first').addClass('active');
+        });
+        $('.image_type_list ul li').on('click', function(){
+            var value = $(this).data('val');
+            $('.image_type_list ul li').removeClass('active');
+            $('.hideAll').hide();
+            $('.'+value).show();
+            $(this).addClass('active');
+        });
+    </script>
+
     </body>
 </html>
