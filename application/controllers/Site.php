@@ -90,6 +90,7 @@ class Site extends CI_Controller
 	// Save Quotation Data
 	public function saveQuotation(){
 		$this->load->model('save_data');
+		
 		$data = $_POST;
 		
 		$country_data = explode("-", $data['country_code']);
@@ -100,6 +101,25 @@ class Site extends CI_Controller
 		$data['country_name'] = $country_name;
 
 		$result = $this->save_data->save_quotation_data($data);
+
+		$from = "info@matzensolutions.com";
+		$to = "info@matzensolutions.com";
+		$subject = "Second subject";
+		$message = "Second This is message content";
+
+		$this->load->library('email');		
+		$this->email->from($from, 'Enquiry');
+		$this->email->to($to);
+		$this->email->subject($subject);
+		$this->email->message($message);
+
+		//Send mail 
+		if($this->email->send()){
+			header('location: '. site_url('site/get_quote?msg=1'));
+		} else { 
+			die("Email not sent. Try again");
+		}
+
 		if($result == '1'){
 			header('location: '. site_url('site/get_quote?msg=1'));
 		}
