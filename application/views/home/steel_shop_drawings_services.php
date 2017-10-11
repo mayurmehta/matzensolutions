@@ -15,7 +15,7 @@
             </div>
 
             <div class="row">
-                <div class="col-md-9 col-sm-12 col-xs-12">
+                <div class="col-md-12 col-sm-12 col-xs-12">
                 	<h3>We Provide The Below Steel Shop Drawings Services</h3>
                     <ul class="marked-list-2 wow fadeIn" data-wow-delay="0.5s">
                         <li>Shop Drawings (Steel Stairs, Steel Canopy, Steel Carport, Staircase Handrail, Steel Grating Detailing etc.)</li>
@@ -33,16 +33,16 @@
                         <li>Reports</li>
                     </ul>
                 </div>
-                <div class="col-md-3 col-sm-12 col-xs-12 mg_add wow fadeInRight" data-wow-delay="0.3s">
-                    
-                </div>
+                <!-- <div class="col-md-3 col-sm-12 col-xs-12 mg_add wow fadeInRight" data-wow-delay="0.3s">
+                    <img src="http://roundpeg.biz/wp-content/uploads/2016/02/Construction-Cover.jpg">
+                </div> -->
             </div>
 
             <div class="row">
-                <div class="col-md-3 col-sm-12 col-xs-12">
+                <!-- <div class="col-md-3 col-sm-12 col-xs-12">
                 	
-                </div>
-                <div class="col-md-9 col-sm-12 col-xs-12 mg_add wow fadeInRight" data-wow-delay="0.3s">
+                </div> -->
+                <div class="col-md-12 col-sm-12 col-xs-12 mg_add wow fadeInRight" data-wow-delay="0.3s">
                     <h3>We are capable of providing steel detailing drawings and structural fabrication drawings in the following formats and file extension for multiple steel detailing practices</h3>
                     <ul class="marked-list-2 wow fadeIn" data-wow-delay="0.5s">
                         <li>.DWG format</li>

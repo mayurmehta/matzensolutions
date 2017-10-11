@@ -6224,7 +6224,10 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
     padding-bottom: 79px;
 }
 .well3__ins1 {
-    padding-top: 112px;
+    // padding-top: 112px;
+
+    /* Mayur */
+    padding-top: 50px;
 }
 .well4 {
     padding-top: 112px;
@@ -6990,6 +6993,10 @@ button.close {
 .col-centered{
     float: none;
     margin: 0 auto;
+}
+
+.navbar-brand a{
+    padding-left: 0;
 }
 
 /* Added By Mayur :END */

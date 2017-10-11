@@ -107,7 +107,7 @@ class Site extends CI_Controller
 		$subject = "Second subject";
 		$message = "Second This is message content";
 
-		$this->load->library('email');		
+		$this->load->library('email');
 		$this->email->from($from, 'Enquiry');
 		$this->email->to($to);
 		$this->email->subject($subject);
