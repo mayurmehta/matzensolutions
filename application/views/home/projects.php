@@ -20,6 +20,7 @@
                             <img src="<?=base_url()?>public/images/watermarked/images/thumb/7B16 - BEAM - WM.jpg" width="300" alt="" />
                         </a>
                         <a href="<?=base_url()?>public/images/watermarked/7B16 - BEAM - WM.pdf">
+                            <br>
                             <img src="<?=base_url()?>public/images/pdf.svg" width="30" />
                             <p>Download PDF<br>(Right-click the link and Select “Save link as”)</p>
                         </a>
@@ -32,6 +33,7 @@
                             <img src="<?=base_url()?>public/images/watermarked/images/thumb/7B17 - BEAM - WM.jpg" width="300" alt="" />
                         </a>
                         <a href="<?=base_url()?>public/images/watermarked/7B17 - BEAM - WM.pdf">
+                            <br>
                             <img src="<?=base_url()?>public/images/pdf.svg" width="30" />
                             <p>Download PDF<br>(Right-click the link and Select “Save link as”)</p>
                         </a>
@@ -46,6 +48,7 @@
                             <img src="<?=base_url()?>public/images/watermarked/images/thumb/7FR3 - FRAME - WM.jpg" width="300" alt="" />
                         </a>
                         <a href="<?=base_url()?>public/images/watermarked/7FR3 - FRAME - WM.pdf">
+                            <br>
                             <img src="<?=base_url()?>public/images/pdf.svg" width="30" />
                             <p>Download PDF<br>(Right-click the link and Select “Save link as”)</p>
                         </a>
@@ -58,6 +61,7 @@
                             <img src="<?=base_url()?>public/images/watermarked/images/thumb/7FR4 - FRAME - WM.jpg" width="300" alt="" />
                         </a>
                         <a href="<?=base_url()?>public/images/watermarked/7FR4 - FRAME - WM.pdf">
+                            <br>
                             <img src="<?=base_url()?>public/images/pdf.svg" width="30" />
                             <p>Download PDF<br>(Right-click the link and Select “Save link as”)</p>
                         </a>
@@ -72,6 +76,7 @@
                             <img src="<?=base_url()?>public/images/watermarked/images/thumb/E201 (Stairs) - WM.jpg" width="300" alt="" />
                         </a>
                         <a href="<?=base_url()?>public/images/watermarked/E201 (Stairs) - WM.pdf">
+                            <br>
                             <img src="<?=base_url()?>public/images/pdf.svg" width="30" />
                             <p>Download PDF<br>(Right-click the link and Select “Save link as”)</p>
                         </a>
@@ -84,6 +89,7 @@
                             <img src="<?=base_url()?>public/images/watermarked/images/thumb/E302 (Stairs) - WM.jpg" width="300" alt="" />
                         </a>
                         <a href="<?=base_url()?>public/images/watermarked/E302 (Stairs) - WM.pdf">
+                            <br>
                             <img src="<?=base_url()?>public/images/pdf.svg" width="30" />
                             <p>Download PDF<br>(Right-click the link and Select “Save link as”)</p>
                         </a>
@@ -96,6 +102,7 @@
                             <img src="<?=base_url()?>public/images/watermarked/images/thumb/E502 (Stairs) - WM.jpg" width="300" alt="" />
                         </a>
                         <a href="<?=base_url()?>public/images/watermarked/E502 (Stairs) - WM.pdf">
+                            <br>
                             <img src="<?=base_url()?>public/images/pdf.svg" width="30" />
                             <p>Download PDF<br>(Right-click the link and Select “Save link as”)</p>
                         </a>
