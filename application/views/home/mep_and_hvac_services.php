@@ -17,7 +17,7 @@
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12">
                     <h3>List of our Mechanical Services</h3>
-                    <ul class="marked-list-2 wow fadeIn" data-wow-delay="0.5s">
+                    <ul class="marked-list-2 wow fadeIn display-block" data-wow-delay="0.5s">
                         <li>2D working drawings for major industrial equipments and devices</li>
                         <li>Paper to CAD conversion</li>
                         <li>Fabrication Shop Drawings</li>
@@ -31,7 +31,7 @@
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-12">
                 	<h3>List of our Electrical Services</h3>
-                    <ul class="marked-list-2 wow fadeIn" data-wow-delay="0.5s">
+                    <ul class="marked-list-2 wow fadeIn display-block" data-wow-delay="0.5s">
                         <li>2D/3D Schematic Drafting Services</li>
                         <li>Lighting System Design</li>
                         <li>Electrical Control Design</li>
@@ -47,9 +47,9 @@
 
             <div class="row">
                 
-                <div class="col-md-9 col-sm-12 col-xs-12 mg_add wow fadeInRight" data-wow-delay="0.3s">
+                <div class="col-md-12 col-sm-12 col-xs-12">
                     <h3>List of our HVAC & Plumbing Services</h3>
-                    <ul class="marked-list-2 wow fadeIn" data-wow-delay="0.5s">
+                    <ul class="marked-list-2 wow fadeIn display-block" data-wow-delay="0.5s">
                         <li>HVAC System layouts</li>
                         <li>HVAC Schematic Designs and Layouts</li>
                         <li>Heating, Ventilation, Air Conditioning System Designs</li>
@@ -84,9 +84,6 @@
                         <li>Soil and Waste Water Disposal System</li>
                         <li>Rain Water Disposal System</li>
                     </ul>
-                </div>
-                <div class="col-md-3 col-sm-12 col-xs-12">
-                    
                 </div>
             </div>
         </div>

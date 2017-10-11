@@ -21,7 +21,7 @@
 
             <div class="row">
                 <div class="col-md-4 col-sm-12 col-xs-12">
-                    <ul class="marked-list-2 wow fadeIn" data-wow-delay="0.5s">
+                    <ul class="marked-list-2 wow fadeIn display-block" data-wow-delay="0.5s">
                         <li>Precast Shop Drawings</li>
                         <li>Precast Concrete Detailing</li>
                         <li>Tilt-up Panels Detailing</li>
@@ -31,7 +31,7 @@
                 </div>
 
                 <div class="col-md-4 col-sm-12 col-xs-12">
-                    <ul class="marked-list-2 wow fadeIn" data-wow-delay="0.5s">
+                    <ul class="marked-list-2 wow fadeIn display-block" data-wow-delay="0.5s">
                         <li>Cladding Panels Detailing</li>
                         <li>Beam Detailing</li>
                         <li>Column Detailing</li>
@@ -41,7 +41,7 @@
                 </div>
 
                 <div class="col-md-4 col-sm-12 col-xs-12">
-                    <ul class="marked-list-2 wow fadeIn" data-wow-delay="0.5s">
+                    <ul class="marked-list-2 wow fadeIn display-block" data-wow-delay="0.5s">
                         <li>Concrete Slab Detailing</li>
                         <li>Post Tension Detailing</li>
                         <li>Double Tee Detailing</li>

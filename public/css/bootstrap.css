@@ -1727,8 +1727,12 @@ div#panel #advanced .navbar-collapse, div#panel #advanced .navbar-collapse .drop
 }
 @media (min-width: 992px) and (max-width: 1199px)  {
     .col-4_mod div: nth-child(3n+4) {
-    clear: both;
-}
+        clear: both;
+    }
+    .no-align {
+        text-align: center !important;
+    }
+
 }
 @media (max-width: 991px)  {
     .col-4_mod div: nth-child(n+3) {
@@ -1904,8 +1908,12 @@ main {
 }
 @media (max-width: 1199px)  {
     .mg_add {
-    margin-top: 0;
-}
+        margin-top: 0;
+    }
+    .no-align {
+        text-align: center !important;
+    }
+
 }
 h2.off1, h2.off2 {
     padding-top: 19px;
@@ -2628,14 +2636,16 @@ dt, dd {
     margin-top: -8px;
     text-align: left;
 }
+
 .contact-info {
     font-size: 20px;
-    line-height: 30px;
+    line-height: 23px;
     color: #333333;
-    padding-top: 8px;
-    margin-left: -50px;
+    margin-left: 20px;
     display: inline-block;
+    vertical-align: middle;
 }
+
 .contact-info a:hover {
     color: #f9ae19;
 }
@@ -2643,10 +2653,10 @@ dt, dd {
     font-size: 44px;
 }
 .fa-phone+.contact-info, .fa-envelope+.contact-info {
-    margin-left: -61px;
+    // margin-left: -61px;
 }
 .fa-phone+.contact-info+a, .fa-envelope+.contact-info+a {
-    margin-left: -59px;
+    // margin-left: -59px;
 }
 @media (max-width: 1199px)  {
     .fa-home, .fa-phone, .fa-envelope {
@@ -6230,7 +6240,12 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
     padding-top: 50px;
 }
 .well4 {
-    padding-top: 112px;
+    // padding-top: 112px;
+
+    /* Mayur */
+    padding-top: 50px;
+
+    
     padding-bottom: 90px;
 }
 .well4__ins1 {
@@ -6999,4 +7014,15 @@ button.close {
     padding-left: 0;
 }
 
+.display-block {
+    display: block !important;
+}
+
+.no-align {
+    text-align: left;
+}
+
+.contact-info span, .contact-info a {
+    display: block;
+}
 /* Added By Mayur :END */

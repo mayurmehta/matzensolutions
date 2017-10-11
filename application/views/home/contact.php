@@ -22,18 +22,18 @@
                 at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna.
                 Donec accumsan malesuada orci. </p> -->
 
-            <div class="row">
+            <div class="row no-align">
                 <div class="col-md-3 col-sm-4 col-xs-12 col-md-offset-2">
                     <span class="fa-home"></span>
                     <address class="contact-info">
-                        Incometax<br/>
-                        Ahmedabad
+                        <span>Incometax</span>
+                        <span>Ahmedabad</span>
                     </address>
                 </div>
                 <div class="col-md-3 col-sm-4 col-xs-12">
                     <span class="fa-phone"></span>
                     <address class="contact-info">
-                        <a href="callto:#">+1 800 559 6580</a><br/>
+                        <a href="callto:#">+1 800 559 6580</a>
                         <a href="callto:#">+1 800 603 6035</a>
                     </address>
                 </div>

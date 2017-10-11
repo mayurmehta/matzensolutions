@@ -15,9 +15,9 @@
             </div>
 
             <div class="row">
-                <div class="col-md-9 col-sm-12 col-xs-12">
+                <div class="col-md-12 col-sm-12 col-xs-12">
                 	<h3>Range of our Rebar Detailing Services</h3>
-                    <ul class="marked-list-2 wow fadeIn" data-wow-delay="0.5s">
+                    <ul class="marked-list-2 wow fadeIn display-block" data-wow-delay="0.5s">
                         <li>Rebar Shop Drawings</li>
                         <li>Rebar Estimation (Material Take-Off Services)</li>
                         <li>Bar Bending Schedules for slab, beams, columns, foundations, walls and other structural components</li>
@@ -28,13 +28,10 @@
                         <li>Retaining Walls Detailing</li>
                     </ul>
                 </div>
-                <div class="col-md-3 col-sm-12 col-xs-12 mg_add wow fadeInRight" data-wow-delay="0.3s">
-                    
-                </div>
             </div>
 
             <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12 mg_add wow fadeInRight" data-wow-delay="0.3s">
+                <div class="col-md-12 col-sm-12 col-xs-12 wow fadeInRight" data-wow-delay="0.3s">
                     <h3>Projects We Worked for</h3>
                 </div>
             </div>
@@ -42,7 +39,7 @@
             <div class="row">
                 <div class="col-md-offset-1 col-md-5 col-sm-12 col-xs-12">
                     <h4>Commercial Projects</h4>
-                    <ul class="marked-list-2 wow fadeIn" data-wow-delay="0.5s">
+                    <ul class="marked-list-2 wow fadeIn display-block" data-wow-delay="0.5s">
                         <li>High Rise Buildings</li>
                         <li>Residential Villas</li>
                         <li>Educational Buildings & University Buildings</li>
@@ -51,9 +48,9 @@
                         <li>Super Malls</li>
                     </ul>
                 </div>
-                <div class="col-md-offset-1 col-md-5 col-sm-12 col-xs-12 mg_add wow fadeInRight" data-wow-delay="0.3s">
+                <div class="col-md-offset-1 col-md-5 col-sm-12 col-xs-12 wow fadeInRight" data-wow-delay="0.3s">
                     <h4>Infrastructure Projects</h4>
-                    <ul class="marked-list-2 wow fadeIn" data-wow-delay="0.5s">
+                    <ul class="marked-list-2 wow fadeIn display-block" data-wow-delay="0.5s">
                         <li>Bridges</li>
                         <li>Highways</li>
                         <li>Water Treatment Plans</li>

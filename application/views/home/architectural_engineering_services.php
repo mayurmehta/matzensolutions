@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12">
                     <h3>Our Architectural Services are useful for</h3>
-                    <ul class="marked-list-2 wow fadeIn" data-wow-delay="0.5s">
+                    <ul class="marked-list-2 wow fadeIn display-block" data-wow-delay="0.5s">
                         <li>Architects</li>
                         <li>Urban Planners</li>
                         <li>Design Firms</li>
@@ -32,9 +32,9 @@
                     </ul>
                 </div>
 
-                <div class="col-md-6 col-sm-12 col-xs-12 mg_add wow fadeInRight" data-wow-delay="0.3s">
+                <div class="col-md-6 col-sm-12 col-xs-12 wow fadeInRight" data-wow-delay="0.3s">
                     <h3>Our Architectural Services include</h3>
-                    <ul class="marked-list-2 wow fadeIn" data-wow-delay="0.5s">
+                    <ul class="marked-list-2 wow fadeIn display-block" data-wow-delay="0.5s">
                         <li>Architectural 2D Drafting</li>
                         <li>Architectural Design</li>
                         <li>Architectural 3D Rendering and Modeling</li>
