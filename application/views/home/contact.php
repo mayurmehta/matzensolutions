@@ -26,8 +26,9 @@
                 <div class="col-md-3 col-sm-4 col-xs-12 col-md-offset-2">
                     <span class="fa-home"></span>
                     <address class="contact-info">
-                        <span>Incometax</span>
-                        <span>Ahmedabad</span>
+                        <span>17, Vasupujya Complex</span>
+                        <span>Income Tax</span>
+                        <span>Ahmedabad-380014</span>
                     </address>
                 </div>
                 <div class="col-md-3 col-sm-4 col-xs-12">

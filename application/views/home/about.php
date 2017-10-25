@@ -80,7 +80,11 @@
             </section>
         </section>
     </section>
-    <section class="well3 text-center">
+
+
+    <!-- Our Mission & Vision -->
+
+    <!-- <section class="well3 text-center">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft">
@@ -117,7 +121,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- <section class="well well__ins3  bg-primary text-center">
         <div class="container">
